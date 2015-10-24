@@ -20,7 +20,7 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <script src="http://www.google-analytics.com/analytics.js" async></script>
     <script>
  function logCRP() {
   var t = window.performance.timing,
@@ -32,6 +32,7 @@
 window.addEventListener("load", function(event) {
   logCRP();
 });
+window.onload = logCRP;
     </script>
 <style>
 html {
