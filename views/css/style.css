@@ -31,10 +31,14 @@ form {
 
 .mover {
   position: fixed;
-  width: 256px;
+  width: 73.3281px;
+  height: 100px;
   z-index: -1;
  will-change: transform;
  transform: translatez(0);
+ backface-visibility: hidden;
+ transform: translate3d(0,0,0);
+ 
 }
 
 .randomPizzaContainer {
@@ -51,3 +55,4 @@ form {
  .container {
   background-color: rgba(240, 60, 60, 0.8);
 }
+
