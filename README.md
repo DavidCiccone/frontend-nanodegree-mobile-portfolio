@@ -1,3 +1,21 @@
+Changes made to the index.html page
+
+	-Changed the google font link to a script to retrieve the font.
+	
+	-Added async to the analytics script.
+	
+	-Moved the perfmatters.js script inline.
+	
+	-Inlined all CSS.
+	
+	-Used Photoshop to optimize profilepic.jpg
+	
+	-Inlined the print.css file to the end of the page.
+
+
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).

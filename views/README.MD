@@ -1,6 +1,6 @@
-Change made to the main.js file in views/js/main.js
+Changes made to the main.js file in views/js/main.js
 
-Line 452, in the function chagePizzaSize:
+Line 452, in the function chagePizzaSize.
 	-Created Variable pizzaSizee to hold document.querySelectorAll
 		
 	-Changed querySelectorAll to getElementsByClassName as this is faster.
